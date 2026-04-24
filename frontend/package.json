@@ -1,0 +1,13 @@
+{
+  "name": "squeezing-peanuts-frontend",
+  "version": "1.0.0",
+  "description": "A2UI Chat Frontend - Multi-agent AI platform",
+  "private": true,
+  "scripts": {
+    "serve": "http-server -p 3000 -c-1",
+    "dev": "http-server -p 3000"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

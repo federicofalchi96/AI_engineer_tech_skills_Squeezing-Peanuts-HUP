@@ -1,0 +1,48 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - DATABASE_PATH=/app/db/app.db
+      - DATABASE_URL=sqlite:///./app.db
+      - HOST=0.0.0.0
+      - PORT=8000
+      - LANGSMITH_API_KEY=${LANGSMITH_API_KEY}
+      - LANGSMITH_PROJECT=${LANGSMITH_PROJECT}
+      - LANGSMITH_TRACING_V2=true
+      - LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+
+    volumes:
+      - ./backend:/app        # Bind mount: live code reload for development
+      - ./data:/app/data      # Data persistence
+    command: python main.py
+    networks:
+      - ai_teacher_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://backend:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - ai_teacher_net
+
+networks:
+  ai_teacher_net:
+    driver: bridge
+

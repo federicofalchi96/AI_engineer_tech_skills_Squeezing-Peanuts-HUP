@@ -1,0 +1,61 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+.env.prod
+*.key
+*.pem
+secrets/
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+# Node/Frontend
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+# Docker
+.docker/
+docker-compose.override.yml
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+# Database & Logs
+*.db
+*.sqlite
+logs/
+*.log
+# OS
+.DS_Store
+Thumbs.db
+.env.local.swp
+# Tutorial & Documentation (Development only)
+TUTORIAL_AVANZATO/
+AI_Engineer_Technical_Assessment.docx
+cleanup_langsmith.py
+# Claude Code & Development
+.claude/
+.devcontainer/
+*.jsonl
+backend/logs/

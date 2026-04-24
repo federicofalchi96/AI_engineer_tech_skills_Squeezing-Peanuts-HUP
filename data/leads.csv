@@ -1,0 +1,61 @@
+lead_id,first_name,last_name,email,company,role,segment,created_at
+L001,Eugenia,Caracciolo,leonegioele@cilea.it,Querini SPA,Procurement,Enterprise,2025-03-03
+L002,Amadeo,Cabrini,gianpaolotirabassi@avogadro.net,Lettiere-Alboni e figli,Procurement,Mid-Market,2024-11-10
+L003,Ilaria,Raimondi,gustavo23@camicione-cabibbo.com,Muratori-Iannucci SPA,CTO,Enterprise,2025-01-22
+L004,Lina,Sauro,paretobernardo@magnani.com,"Gentilini, Luxardo e Bottaro e figli",Procurement,SMB,2024-06-09
+L005,Stefania,Callegaro,dlettiere@ossani.net,"Interiano, Bongiorno e Donini e figli",CEO,SMB,2024-08-11
+L006,Ettore,Scamarcio,ojilani@volta.net,Mennea s.r.l.,CEO,Enterprise,2025-01-27
+L007,Graziano,Boezio,antonellamedici@tarchetti.it,Iannuzzi e figli,CTO,Enterprise,2024-06-30
+L008,Gioffre,Zamorani,ludovica96@piane.it,Burcardo-Bellini SPA,Operations Manager,Enterprise,2024-06-01
+L009,Eraldo,Curatoli,yboccaccio@scialpi-trupiano.it,Carocci Group,CTO,SMB,2024-04-17
+L010,Marissa,Morpurgo,magrassiraffaellino@sansoni.org,"Emo, Tomaselli e Canali Group",Procurement,SMB,2024-08-13
+L011,Rosalia,Tomaselli,eraldopaltrinieri@vattimo.it,Staglieno-Antonioni SPA,CTO,Mid-Market,2024-05-18
+L012,Milo,Martucci,arturogiusti@bosurgi.it,Ceri s.r.l.,CFO,Enterprise,2024-12-24
+L013,Amalia,Deledda,vincenzo96@vattimo.org,Palombi-Roncalli s.r.l.,Procurement,Mid-Market,2024-09-22
+L014,Dante,Granatelli,azegliomoretti@visintini.it,Aldobrandi SPA,CFO,Enterprise,2024-11-25
+L015,Isabella,Biagiotti,baldassarebajardi@bondumier-tosi.org,"Spanevello, Gabba e Vattimo e figli",CFO,Enterprise,2025-01-27
+L016,Lidia,Serraglio,mercedesserraglio@favata-caccioppoli.it,Randazzo-Polani s.r.l.,Head of IT,Enterprise,2024-09-13
+L017,Stefani,Bernini,bignardipatrizio@morlacchi.net,"Sagredo, Cimarosa e Querini e figli",CFO,SMB,2024-10-31
+L018,Gustavo,Scandone,tatianaborromini@vigliotti-cainero.it,Cabrini e figli,CEO,SMB,2024-07-23
+L019,Fabio,Pisano,nsollima@biagiotti-dandolo.com,Impastato-Santorio Group,Operations Manager,Enterprise,2024-09-03
+L020,Piersanti,Vivaldi,mcostanzi@gaiatto-biagi.eu,Benigni s.r.l.,CEO,SMB,2024-10-16
+L021,Tiziano,Turchi,arturotomasetti@fantoni.it,Gibilisco s.r.l.,Procurement,SMB,2024-09-11
+L022,Dante,Gozzi,bragadinpiero@zetticci.net,"Mazzocchi, Giorgetti e Impastato s.r.l.",Operations Manager,Enterprise,2025-02-08
+L023,Donatello,Mantegazza,wmercadante@aloisio.it,"Calgari, Borghese e Vanvitelli e figli",CEO,SMB,2024-11-19
+L024,Tonino,Impastato,mauriliobombieri@pacomio.com,Vento-Marazzi SPA,CFO,Enterprise,2024-11-16
+L025,Gelsomina,Vismara,francesca12@carpaccio-canevascini.org,Fracci-Mozart e figli,CEO,Mid-Market,2024-10-24
+L026,Giuseppina,Iannotti,dgregorio@randazzo.com,Montesano e figli,Head of IT,SMB,2024-09-10
+L027,Etta,Iacobucci,luciarossini@renier.com,"Contarini, Verga e Barcaccia Group",CTO,Mid-Market,2024-09-15
+L028,Berenice,Viola,puccioceravolo@mascagni.com,Foà-Greco SPA,CTO,SMB,2024-10-30
+L029,Michelangelo,Zacco,pcostalonga@eco.com,Montanelli s.r.l.,Procurement,SMB,2024-04-18
+L030,Nina,Grassi,ermes16@segre.net,Nibali-Marino e figli,CEO,SMB,2024-04-24
+L031,Gianfranco,Ariosto,pasqualmondaini@bonanno-liguori.it,Valguarnera-Montanari SPA,CTO,SMB,2024-11-10
+L032,Daniele,Gulotta,beatriceimpastato@canova.eu,"Mazzini, Roero e Tornatore SPA",CTO,Mid-Market,2024-09-02
+L033,Orlando,Favata,antonello60@varano.com,"Montalcini, Mazzini e Cattaneo Group",CFO,SMB,2024-06-03
+L034,Tonino,Maspero,zmogherini@malaparte.it,"Parini, Draghi e Manunta s.r.l.",CTO,SMB,2024-09-30
+L035,Allegra,Abatantuono,ivan36@milanesi.net,"Sforza, Donarelli e Brenna Group",CEO,Enterprise,2025-02-27
+L036,Uberto,Monti,gibiliscogiada@gasperi-filangieri.com,Gotti s.r.l.,CFO,Mid-Market,2024-10-29
+L037,Cristina,Bonomo,oporzio@ferrari.net,Ajello SPA,CEO,Enterprise,2024-05-29
+L038,Melania,Raurica,federigotrapani@benigni-volterra.com,Chiesa-Scarpa Group,Procurement,Mid-Market,2024-11-27
+L039,Margherita,Rubbia,cvespa@sibilia.org,Lerner s.r.l.,Procurement,Mid-Market,2024-08-25
+L040,Elena,Giovine,ranieri14@lancisi.eu,"Bottigliero, Cicilia e Contrafatto e figli",Procurement,Mid-Market,2025-01-01
+L041,Oreste,Corradi,azegliopozzecco@montalti-venier.it,Foconi s.r.l.,CFO,Enterprise,2024-11-09
+L042,Ottavio,Antonucci,asinisi@mancini-pellico.it,"Vergassola, Galuppi e Sraffa e figli",Procurement,SMB,2024-06-13
+L043,Guarino,Roccabonella,ybadoer@pirandello-deledda.com,"Udinese, Babati e Pertile SPA",CFO,SMB,2024-05-20
+L044,Bruno,Renzi,stefaniascalfaro@benigni.it,Franscini-Santorio Group,Head of IT,SMB,2024-08-23
+L045,Martino,Parini,marcella64@segre.it,Nibali e figli,CFO,Enterprise,2025-01-04
+L046,Federica,Bombieri,bajamontigioffre@aporti.net,Sforza SPA,Operations Manager,Mid-Market,2025-01-28
+L047,Annetta,Gaito,xguarato@detti-carocci.org,Asprucci Group,CEO,Enterprise,2024-12-27
+L048,Aria,Panicucci,efieramosca@golino.it,Napolitano s.r.l.,Procurement,Enterprise,2024-08-11
+L049,Fortunata,Paganini,tognazzifabrizia@anastasi-pugliese.com,Orengo-Savorgnan e figli,Operations Manager,Enterprise,2024-08-30
+L050,Raffaellino,Durante,dina87@roccabonella-inzaghi.net,Liguori s.r.l.,Head of IT,SMB,2024-07-19
+L051,Gioachino,Scarpa,bmorandi@modiano-faggiani.net,Guicciardini-Morricone Group,Operations Manager,Mid-Market,2024-06-05
+L052,Tiziana,Leopardi,traettafranco@goldoni.it,"Giunti, Simeoni e Stradivari s.r.l.",CEO,SMB,2025-01-16
+L053,Morena,Antonelli,majewskigianfrancesco@gonzaga-marsili.it,"Turchi, Muratori e Ravaglioli Group",Procurement,SMB,2024-10-30
+L054,Mauro,Sansoni,liberto43@ferragamo.com,"Valentino, Fantini e Fermi e figli",Procurement,Mid-Market,2025-01-17
+L055,Loretta,Sorrentino,lidia98@longhena.net,Errani-Marazzi SPA,CFO,Mid-Market,2024-12-25
+L056,Isabella,Udinese,guglielmobeccheria@visconti.com,"Stradivari, Camilleri e Anastasi Group",Head of IT,Enterprise,2024-11-01
+L057,Ruggiero,Soderini,lmorricone@grimani.com,Piccio s.r.l.,Operations Manager,Enterprise,2024-06-29
+L058,Benito,Bernetti,enziozanichelli@bresciani-grassi.it,Gelli-Tresoldi s.r.l.,CEO,SMB,2024-10-14
+L059,Roberto,Rubbia,sonia96@bignami-calbo.net,Bova-Crispi e figli,Procurement,SMB,2024-05-08
+L060,Fedele,Villarosa,crisafulliadamo@salieri-segni.com,Luria Group,CTO,Enterprise,2024-09-05

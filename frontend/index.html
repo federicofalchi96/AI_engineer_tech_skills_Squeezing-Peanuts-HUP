@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squeezing Peanuts / HUP - AI Agent Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        .gradient-header {
+            background: linear-gradient(to right, #2563eb, #1d4ed8);
+        }
+        .chat-container-wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+        }
+        @media (min-width: 768px) {
+            .chat-container-wrapper {
+                height: 90vh;
+                max-width: 800px;
+                margin: auto;
+                border-radius: 12px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    
+    <div class="chat-container-wrapper bg-white shadow-2xl rounded-none md:rounded-xl overflow-hidden">
+        
+        <!-- Header -->
+        <div class="gradient-header px-6 py-4 text-white">
+            <h1 class="text-2xl font-bold">Squeezing Peanuts</h1>
+            <p class="text-sm text-blue-100">Multi-Agent AI Platform • Sales & Finance Intelligence</p>
+        </div>
+
+        <!-- Session Cost Display -->
+        <div id="cost-display" style="
+            padding: 12px 24px;
+            background: #f9fafb;
+            border-bottom: 1px solid #e5e7eb;
+            display: block;
+        ">
+            <div style="
+                max-width: 100%;
+                margin: 0 auto;
+            ">
+                <div style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 8px;
+                    font-size: 13px;
+                ">
+                    <span style="color: #374151; font-weight: 500;">Session Cost</span>
+                    <span id="cost-text" style="color: #111827; font-weight: 600;">$0.000000 / $0.20</span>
+                </div>
+                <div style="
+                    width: 100%;
+                    height: 6px;
+                    background: #e5e7eb;
+                    border-radius: 3px;
+                    overflow: hidden;
+                ">
+                    <div id="cost-bar" style="
+                        width: 0%;
+                        height: 100%;
+                        background: #10b981;
+                        transition: width 0.3s ease, background-color 0.3s ease;
+                        border-radius: 3px;
+                    "></div>
+                </div>
+                <div id="cost-warning" style="
+                    margin-top: 8px;
+                    padding: 8px;
+                    background: #fef3c7;
+                    border: 1px solid #fcd34d;
+                    border-radius: 4px;
+                    color: #92400e;
+                    font-size: 12px;
+                    display: none;
+                ">
+                    ALERT ! Approaching cost limit. Remaining: <span id="cost-remaining">$0.00</span>
+                </div>
+                <div id="cost-exceeded" style="
+                    margin-top: 8px;
+                    padding: 8px;
+                    background: #fee2e2;
+                    border: 1px solid #fca5a5;
+                    border-radius: 4px;
+                    color: #7f1d1d;
+                    font-size: 12px;
+                    display: none;
+                ">
+                    🛑 Cost limit reached. No more queries allowed.
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Container -->
+        <div id="chat-container" class="chat-scroll flex-1 overflow-y-auto p-6">
+            <div class="text-center text-gray-500 text-sm mb-4">
+                <p>Welcome! Ask me about sales, finance, or general business questions.</p>
+                <p class="text-xs mt-2 text-gray-400">Example: "Which leads have no activity in 30 days with open deals above €20k?"</p>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="border-t border-gray-200 bg-gray-50 px-6 py-4">
+            <form id="chat-form" class="flex gap-3">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Type your query..." 
+                    class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    autocomplete="off"
+                />
+                <button 
+                    type="submit" 
+                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium flex items-center gap-2"
+                    id="send-btn"
+                >
+                    <span>Send</span>
+                    <span id="spinner" class="hidden">...</span>
+                </button>
+            </form>
+            <div id="error-box" class="hidden mt-3 p-3 bg-red-50 border border-red-200 rounded text-red-700 text-sm"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

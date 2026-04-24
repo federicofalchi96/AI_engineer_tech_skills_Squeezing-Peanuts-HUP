@@ -1,0 +1,401 @@
+order_id,product_name,category,quantity,unit_price_eur,unit_cost_eur,order_date
+O0001,Security Assessment,Consulting,1,3800,1891.52,2025-02-18
+O0002,Network Switch,Hardware,2,1500,1042.47,2025-03-15
+O0003,Storage Array,Hardware,1,6500,4424.0,2025-02-10
+O0004,Onsite Pack 10h,Support,1,2000,839.07,2025-02-19
+O0005,Premium SLA,Support,1,1800,565.1,2025-03-05
+O0006,Integration Hub,Software,1,2200,342.2,2025-02-12
+O0007,Certification Prep,Training,1,2000,802.08,2025-01-13
+O0008,Migration Project,Consulting,1,8500,4407.65,2025-02-22
+O0009,Admin Bootcamp,Training,1,1200,493.51,2025-03-02
+O0010,UPS Unit,Hardware,4,900,621.97,2025-03-25
+O0011,Analytics Suite,Software,1,2800,362.58,2025-03-28
+O0012,Workstation Pro,Hardware,4,2200,1583.4,2025-03-11
+O0013,CRM License,Software,1,1200,182.36,2025-01-31
+O0014,Developer Workshop,Training,1,1600,635.77,2025-01-12
+O0015,CRM License,Software,1,1200,173.99,2025-02-26
+O0016,Server Node,Hardware,1,4800,3269.47,2025-02-11
+O0017,24/7 Coverage,Support,1,3600,1066.48,2025-02-15
+O0018,Integration Hub,Software,1,2200,332.18,2025-02-22
+O0019,Premium SLA,Support,1,1800,517.26,2025-01-23
+O0020,Custom Course,Training,1,3000,1168.9,2025-03-29
+O0021,Developer Workshop,Training,1,1600,637.51,2025-01-30
+O0022,Workstation Pro,Hardware,1,2200,1564.07,2025-03-01
+O0023,Custom Course,Training,1,3000,1148.86,2025-01-21
+O0024,Custom Course,Training,1,3000,1216.67,2025-02-08
+O0025,Process Audit,Consulting,1,2400,1241.44,2025-02-28
+O0026,Security Package,Software,1,1800,259.38,2025-03-03
+O0027,Workstation Pro,Hardware,5,2200,1521.53,2025-02-07
+O0028,End User Training,Training,1,800,335.29,2025-01-03
+O0029,24/7 Coverage,Support,1,3600,1087.12,2025-01-02
+O0030,Basic SLA,Support,1,600,184.41,2025-03-19
+O0031,End User Training,Training,1,800,323.43,2025-01-30
+O0032,Network Switch,Hardware,5,1500,990.53,2025-02-02
+O0033,Premium SLA,Support,1,1800,518.25,2025-03-22
+O0034,Architecture Review,Consulting,1,3200,1646.18,2025-02-09
+O0035,Analytics Suite,Software,1,2800,335.65,2025-01-17
+O0036,Storage Array,Hardware,2,6500,4340.0,2025-01-26
+O0037,Integration Hub,Software,1,2200,331.02,2025-02-16
+O0038,Developer Workshop,Training,1,1600,666.5,2025-02-02
+O0039,End User Training,Training,1,800,329.74,2025-02-13
+O0040,Architecture Review,Consulting,1,3200,1640.66,2025-01-19
+O0041,Storage Array,Hardware,5,6500,4457.6,2025-02-16
+O0042,Security Package,Software,1,1800,263.64,2025-01-02
+O0043,Analytics Suite,Software,1,2800,358.72,2025-03-28
+O0044,Storage Array,Hardware,3,6500,4272.8,2025-01-14
+O0045,Onsite Pack 10h,Support,1,2000,809.56,2025-01-04
+O0046,End User Training,Training,1,800,311.08,2025-03-20
+O0047,Security Package,Software,1,1800,264.66,2025-03-31
+O0048,Network Switch,Hardware,1,1500,955.07,2025-01-05
+O0049,Storage Array,Hardware,1,6500,4267.2,2025-01-13
+O0050,UPS Unit,Hardware,2,900,596.59,2025-02-19
+O0051,Security Assessment,Consulting,1,3800,1916.59,2025-02-23
+O0052,Onsite Pack 10h,Support,1,2000,767.92,2025-03-25
+O0053,Data Strategy,Consulting,1,4500,2144.86,2025-02-05
+O0054,Storage Array,Hardware,4,6500,4368.0,2025-01-31
+O0055,Admin Bootcamp,Training,1,1200,473.63,2025-03-29
+O0056,End User Training,Training,1,800,316.74,2025-01-08
+O0057,CRM License,Software,1,1200,172.65,2025-02-28
+O0058,Integration Hub,Software,1,2200,315.17,2025-01-03
+O0059,Network Switch,Hardware,5,1500,982.93,2025-01-27
+O0060,Integration Hub,Software,1,2200,332.85,2025-01-27
+O0061,Premium SLA,Support,1,1800,554.82,2025-02-12
+O0062,Remote Pack 20h,Support,1,2800,1095.05,2025-01-01
+O0063,Developer Workshop,Training,1,1600,624.04,2025-03-11
+O0064,CRM License,Software,1,1200,171.27,2025-01-17
+O0065,Premium SLA,Support,1,1800,530.48,2025-03-17
+O0066,CRM License,Software,1,1200,184.35,2025-01-17
+O0067,Architecture Review,Consulting,1,3200,1591.72,2025-03-02
+O0068,UPS Unit,Hardware,1,900,602.56,2025-02-27
+O0069,Security Assessment,Consulting,1,3800,1943.18,2025-01-06
+O0070,Custom Course,Training,1,3000,1194.97,2025-02-08
+O0071,Admin Bootcamp,Training,1,1200,496.67,2025-03-03
+O0072,Architecture Review,Consulting,1,3200,1633.98,2025-03-04
+O0073,Architecture Review,Consulting,1,3200,1617.33,2025-02-11
+O0074,Analytics Suite,Software,1,2800,354.66,2025-03-21
+O0075,Process Audit,Consulting,1,2400,1259.36,2025-02-18
+O0076,Data Strategy,Consulting,1,4500,2273.72,2025-03-06
+O0077,CRM License,Software,1,1200,182.72,2025-03-25
+O0078,Premium SLA,Support,1,1800,537.38,2025-02-25
+O0079,Workstation Pro,Hardware,4,2200,1548.6,2025-02-21
+O0080,Server Node,Hardware,3,4800,3323.2,2025-02-24
+O0081,Workstation Pro,Hardware,3,2200,1486.73,2025-01-20
+O0082,Onsite Pack 10h,Support,1,2000,767.3,2025-01-09
+O0083,Security Package,Software,1,1800,276.6,2025-01-13
+O0084,Network Switch,Hardware,5,1500,958.87,2025-01-08
+O0085,Security Assessment,Consulting,1,3800,1867.63,2025-03-13
+O0086,Analytics Suite,Software,1,2800,365.44,2025-03-27
+O0087,Architecture Review,Consulting,1,3200,1616.07,2025-02-06
+O0088,UPS Unit,Hardware,5,900,580.16,2025-01-28
+O0089,Security Package,Software,1,1800,279.38,2025-01-29
+O0090,UPS Unit,Hardware,3,900,570.45,2025-01-15
+O0091,Remote Pack 20h,Support,1,2800,1154.41,2025-01-29
+O0092,Custom Course,Training,1,3000,1221.0,2025-03-20
+O0093,Security Assessment,Consulting,1,3800,1962.6,2025-03-26
+O0094,Network Switch,Hardware,3,1500,1062.73,2025-03-31
+O0095,24/7 Coverage,Support,1,3600,1026.66,2025-02-14
+O0096,Custom Course,Training,1,3000,1188.09,2025-03-26
+O0097,CRM License,Software,1,1200,184.43,2025-01-12
+O0098,Security Package,Software,1,1800,265.7,2025-02-28
+O0099,Workstation Pro,Hardware,5,2200,1596.93,2025-03-18
+O0100,CRM License,Software,1,1200,173.83,2025-01-20
+O0101,Architecture Review,Consulting,1,3200,1590.9,2025-02-04
+O0102,Security Assessment,Consulting,1,3800,1883.69,2025-02-26
+O0103,Integration Hub,Software,1,2200,324.89,2025-01-15
+O0104,Integration Hub,Software,1,2200,330.89,2025-03-04
+O0105,Network Switch,Hardware,4,1500,1046.27,2025-03-18
+O0106,ERP Module,Software,1,3500,438.7,2025-02-08
+O0107,24/7 Coverage,Support,1,3600,1061.44,2025-02-07
+O0108,Security Package,Software,1,1800,259.99,2025-01-23
+O0109,Migration Project,Consulting,1,8500,4274.96,2025-03-06
+O0110,24/7 Coverage,Support,1,3600,1068.88,2025-01-10
+O0111,Onsite Pack 10h,Support,1,2000,796.78,2025-01-03
+O0112,Analytics Suite,Software,1,2800,347.52,2025-03-15
+O0113,Storage Array,Hardware,3,6500,4278.4,2025-01-15
+O0114,Workstation Pro,Hardware,2,2200,1602.73,2025-03-21
+O0115,Process Audit,Consulting,1,2400,1192.41,2025-01-12
+O0116,Security Package,Software,1,1800,267.31,2025-03-17
+O0117,Analytics Suite,Software,1,2800,340.26,2025-02-13
+O0118,Basic SLA,Support,1,600,182.4,2025-03-07
+O0119,Migration Project,Consulting,1,8500,4186.72,2025-02-14
+O0120,Developer Workshop,Training,1,1600,614.58,2025-01-31
+O0121,Network Switch,Hardware,5,1500,974.07,2025-01-20
+O0122,Basic SLA,Support,1,600,188.12,2025-01-23
+O0123,Data Strategy,Consulting,1,4500,2308.47,2025-03-14
+O0124,Security Assessment,Consulting,1,3800,1925.71,2025-03-24
+O0125,Process Audit,Consulting,1,2400,1192.77,2025-01-20
+O0126,Process Audit,Consulting,1,2400,1210.97,2025-02-05
+O0127,Server Node,Hardware,3,4800,3343.87,2025-03-01
+O0128,Architecture Review,Consulting,1,3200,1653.07,2025-02-17
+O0129,CRM License,Software,1,1200,181.69,2025-03-20
+O0130,UPS Unit,Hardware,5,900,563.73,2025-01-06
+O0131,Security Assessment,Consulting,1,3800,1840.77,2025-03-25
+O0132,Security Assessment,Consulting,1,3800,1986.97,2025-01-20
+O0133,Process Audit,Consulting,1,2400,1200.55,2025-01-11
+O0134,ERP Module,Software,1,3500,440.62,2025-02-26
+O0135,Security Assessment,Consulting,1,3800,1874.14,2025-01-21
+O0136,Certification Prep,Training,1,2000,821.96,2025-02-22
+O0137,Basic SLA,Support,1,600,182.65,2025-03-22
+O0138,CRM License,Software,1,1200,183.21,2025-03-13
+O0139,UPS Unit,Hardware,2,900,591.36,2025-02-12
+O0140,ERP Module,Software,1,3500,412.03,2025-02-14
+O0141,Onsite Pack 10h,Support,1,2000,807.6,2025-01-17
+O0142,End User Training,Training,1,800,316.05,2025-03-13
+O0143,Premium SLA,Support,1,1800,550.95,2025-03-27
+O0144,Custom Course,Training,1,3000,1217.52,2025-01-12
+O0145,Process Audit,Consulting,1,2400,1183.51,2025-01-03
+O0146,ERP Module,Software,1,3500,438.8,2025-02-13
+O0147,Migration Project,Consulting,1,8500,4103.35,2025-01-18
+O0148,Server Node,Hardware,5,4800,3385.2,2025-03-11
+O0149,Custom Course,Training,1,3000,1219.43,2025-01-05
+O0150,Custom Course,Training,1,3000,1211.67,2025-01-17
+O0151,ERP Module,Software,1,3500,431.39,2025-03-30
+O0152,Premium SLA,Support,1,1800,515.36,2025-02-26
+O0153,Network Switch,Hardware,4,1500,1048.8,2025-03-20
+O0154,Storage Array,Hardware,2,6500,4580.8,2025-03-10
+O0155,Storage Array,Hardware,2,6500,4463.2,2025-02-17
+O0156,Remote Pack 20h,Support,1,2800,1115.71,2025-02-26
+O0157,Storage Array,Hardware,5,6500,4575.2,2025-03-09
+O0158,Network Switch,Hardware,2,1500,1047.53,2025-03-19
+O0159,Analytics Suite,Software,1,2800,354.94,2025-01-07
+O0160,Custom Course,Training,1,3000,1225.37,2025-01-14
+O0161,Architecture Review,Consulting,1,3200,1533.42,2025-02-06
+O0162,Security Package,Software,1,1800,260.48,2025-03-07
+O0163,Migration Project,Consulting,1,8500,4413.47,2025-02-27
+O0164,Certification Prep,Training,1,2000,791.72,2025-01-07
+O0165,Storage Array,Hardware,1,6500,4463.2,2025-02-17
+O0166,Workstation Pro,Hardware,1,2200,1610.47,2025-03-25
+O0167,Network Switch,Hardware,2,1500,955.07,2025-01-05
+O0168,Storage Array,Hardware,2,6500,4536.0,2025-03-02
+O0169,Architecture Review,Consulting,1,3200,1523.04,2025-01-11
+O0170,ERP Module,Software,1,3500,438.49,2025-03-12
+O0171,Data Strategy,Consulting,1,4500,2312.14,2025-01-15
+O0172,Server Node,Hardware,1,4800,3224.0,2025-01-31
+O0173,UPS Unit,Hardware,4,900,565.97,2025-01-09
+O0174,Security Package,Software,1,1800,270.97,2025-03-18
+O0175,Security Assessment,Consulting,1,3800,1941.52,2025-01-31
+O0176,Server Node,Hardware,5,4800,3286.0,2025-02-15
+O0177,Storage Array,Hardware,2,6500,4676.0,2025-03-27
+O0178,Remote Pack 20h,Support,1,2800,1071.58,2025-02-16
+O0179,Security Assessment,Consulting,1,3800,1910.29,2025-03-06
+O0180,Storage Array,Hardware,1,6500,4653.6,2025-03-23
+O0181,Workstation Pro,Hardware,3,2200,1453.87,2025-01-03
+O0182,Server Node,Hardware,3,4800,3224.0,2025-01-31
+O0183,Basic SLA,Support,1,600,184.23,2025-03-16
+O0184,Server Node,Hardware,3,4800,3385.2,2025-03-11
+O0185,Network Switch,Hardware,4,1500,1062.73,2025-03-31
+O0186,Migration Project,Consulting,1,8500,4064.32,2025-01-18
+O0187,Onsite Pack 10h,Support,1,2000,783.48,2025-01-05
+O0188,ERP Module,Software,1,3500,412.26,2025-01-06
+O0189,Storage Array,Hardware,5,6500,4536.0,2025-03-02
+O0190,Network Switch,Hardware,3,1500,1007.0,2025-02-15
+O0191,Admin Bootcamp,Training,1,1200,471.93,2025-03-25
+O0192,Analytics Suite,Software,1,2800,363.63,2025-02-25
+O0193,Onsite Pack 10h,Support,1,2000,837.9,2025-02-13
+O0194,Data Strategy,Consulting,1,4500,2345.47,2025-02-17
+O0195,Architecture Review,Consulting,1,3200,1532.63,2025-02-24
+O0196,Migration Project,Consulting,1,8500,4162.35,2025-03-11
+O0197,Analytics Suite,Software,1,2800,342.85,2025-03-26
+O0198,Data Strategy,Consulting,1,4500,2292.7,2025-01-22
+O0199,Server Node,Hardware,3,4800,3422.4,2025-03-20
+O0200,End User Training,Training,1,800,335.36,2025-03-23
+O0201,Admin Bootcamp,Training,1,1200,486.6,2025-03-27
+O0202,Network Switch,Hardware,1,1500,972.8,2025-01-19
+O0203,Certification Prep,Training,1,2000,770.1,2025-01-05
+O0204,Workstation Pro,Hardware,3,2200,1544.73,2025-02-19
+O0205,Admin Bootcamp,Training,1,1200,463.37,2025-03-19
+O0206,Process Audit,Consulting,1,2400,1193.27,2025-02-17
+O0207,ERP Module,Software,1,3500,414.41,2025-03-09
+O0208,Workstation Pro,Hardware,2,2200,1477.07,2025-01-15
+O0209,ERP Module,Software,1,3500,420.75,2025-03-05
+O0210,Admin Bootcamp,Training,1,1200,493.2,2025-02-03
+O0211,Premium SLA,Support,1,1800,528.42,2025-03-20
+O0212,Certification Prep,Training,1,2000,769.81,2025-01-26
+O0213,Certification Prep,Training,1,2000,831.89,2025-01-23
+O0214,Architecture Review,Consulting,1,3200,1674.81,2025-03-29
+O0215,End User Training,Training,1,800,321.6,2025-01-09
+O0216,Workstation Pro,Hardware,2,2200,1622.07,2025-03-31
+O0217,Process Audit,Consulting,1,2400,1166.91,2025-03-07
+O0218,Developer Workshop,Training,1,1600,658.58,2025-01-31
+O0219,Integration Hub,Software,1,2200,325.67,2025-03-15
+O0220,Remote Pack 20h,Support,1,2800,1132.54,2025-01-17
+O0221,Analytics Suite,Software,1,2800,367.49,2025-02-20
+O0222,Remote Pack 20h,Support,1,2800,1150.15,2025-02-22
+O0223,Admin Bootcamp,Training,1,1200,502.67,2025-01-17
+O0224,Onsite Pack 10h,Support,1,2000,814.41,2025-03-01
+O0225,UPS Unit,Hardware,5,900,577.17,2025-01-24
+O0226,Premium SLA,Support,1,1800,540.15,2025-02-25
+O0227,Admin Bootcamp,Training,1,1200,463.34,2025-03-08
+O0228,Analytics Suite,Software,1,2800,344.61,2025-01-29
+O0229,End User Training,Training,1,800,312.02,2025-01-11
+O0230,Security Assessment,Consulting,1,3800,1828.78,2025-02-05
+O0231,UPS Unit,Hardware,1,900,607.79,2025-03-06
+O0232,Remote Pack 20h,Support,1,2800,1081.27,2025-03-16
+O0233,Remote Pack 20h,Support,1,2800,1158.36,2025-02-13
+O0234,Architecture Review,Consulting,1,3200,1527.27,2025-01-11
+O0235,Remote Pack 20h,Support,1,2800,1136.93,2025-02-03
+O0236,Onsite Pack 10h,Support,1,2000,811.12,2025-03-21
+O0237,Security Assessment,Consulting,1,3800,1926.96,2025-02-07
+O0238,Network Switch,Hardware,4,1500,998.13,2025-02-08
+O0239,Architecture Review,Consulting,1,3200,1590.34,2025-01-21
+O0240,Migration Project,Consulting,1,8500,4295.33,2025-02-13
+O0241,Workstation Pro,Hardware,3,2200,1548.6,2025-02-21
+O0242,Analytics Suite,Software,1,2800,352.16,2025-03-07
+O0243,Storage Array,Hardware,1,6500,4390.4,2025-02-04
+O0244,Migration Project,Consulting,1,8500,4059.01,2025-01-13
+O0245,Custom Course,Training,1,3000,1169.79,2025-02-23
+O0246,Developer Workshop,Training,1,1600,667.76,2025-02-11
+O0247,Premium SLA,Support,1,1800,539.91,2025-01-21
+O0248,Data Strategy,Consulting,1,4500,2249.41,2025-02-09
+O0249,Security Package,Software,1,1800,268.85,2025-03-06
+O0250,UPS Unit,Hardware,3,900,564.48,2025-01-07
+O0251,Security Package,Software,1,1800,280.32,2025-03-18
+O0252,Onsite Pack 10h,Support,1,2000,802.94,2025-02-06
+O0253,Certification Prep,Training,1,2000,830.6,2025-01-18
+O0254,Onsite Pack 10h,Support,1,2000,763.62,2025-02-16
+O0255,Integration Hub,Software,1,2200,325.46,2025-01-25
+O0256,Storage Array,Hardware,5,6500,4519.2,2025-02-27
+O0257,24/7 Coverage,Support,1,3600,1099.48,2025-03-21
+O0258,CRM License,Software,1,1200,177.72,2025-02-20
+O0259,Custom Course,Training,1,3000,1230.6,2025-02-16
+O0260,Integration Hub,Software,1,2200,330.0,2025-02-21
+O0261,ERP Module,Software,1,3500,432.77,2025-02-12
+O0262,Migration Project,Consulting,1,8500,4417.08,2025-03-19
+O0263,Integration Hub,Software,1,2200,318.86,2025-02-10
+O0264,End User Training,Training,1,800,314.76,2025-03-17
+O0265,Custom Course,Training,1,3000,1225.05,2025-03-04
+O0266,Server Node,Hardware,3,4800,3273.6,2025-02-12
+O0267,Onsite Pack 10h,Support,1,2000,784.61,2025-03-16
+O0268,Admin Bootcamp,Training,1,1200,478.78,2025-03-18
+O0269,Custom Course,Training,1,3000,1167.31,2025-03-15
+O0270,Security Package,Software,1,1800,270.65,2025-01-22
+O0271,Onsite Pack 10h,Support,1,2000,825.73,2025-01-19
+O0272,UPS Unit,Hardware,1,900,577.92,2025-01-25
+O0273,Analytics Suite,Software,1,2800,337.8,2025-02-23
+O0274,Onsite Pack 10h,Support,1,2000,822.0,2025-03-06
+O0275,Admin Bootcamp,Training,1,1200,480.9,2025-01-18
+O0276,Data Strategy,Consulting,1,4500,2222.29,2025-03-09
+O0277,Certification Prep,Training,1,2000,787.39,2025-03-10
+O0278,Workstation Pro,Hardware,5,2200,1567.93,2025-03-03
+O0279,ERP Module,Software,1,3500,422.44,2025-02-05
+O0280,Workstation Pro,Hardware,3,2200,1500.27,2025-01-27
+O0281,Onsite Pack 10h,Support,1,2000,798.38,2025-02-10
+O0282,Process Audit,Consulting,1,2400,1154.62,2025-02-06
+O0283,Onsite Pack 10h,Support,1,2000,825.47,2025-02-20
+O0284,Developer Workshop,Training,1,1600,610.69,2025-02-07
+O0285,Admin Bootcamp,Training,1,1200,500.35,2025-02-14
+O0286,Onsite Pack 10h,Support,1,2000,776.17,2025-01-28
+O0287,Security Assessment,Consulting,1,3800,1856.61,2025-03-31
+O0288,Integration Hub,Software,1,2200,321.5,2025-01-31
+O0289,Remote Pack 20h,Support,1,2800,1135.45,2025-01-29
+O0290,Security Package,Software,1,1800,275.87,2025-02-12
+O0291,ERP Module,Software,1,3500,439.51,2025-01-01
+O0292,Developer Workshop,Training,1,1600,649.79,2025-02-22
+O0293,Certification Prep,Training,1,2000,812.04,2025-03-03
+O0294,24/7 Coverage,Support,1,3600,1056.82,2025-02-11
+O0295,CRM License,Software,1,1200,181.33,2025-03-25
+O0296,Architecture Review,Consulting,1,3200,1586.86,2025-01-23
+O0297,Admin Bootcamp,Training,1,1200,493.82,2025-02-20
+O0298,Analytics Suite,Software,1,2800,332.82,2025-01-05
+O0299,Architecture Review,Consulting,1,3200,1565.53,2025-02-12
+O0300,Custom Course,Training,1,3000,1199.27,2025-03-09
+O0301,Custom Course,Training,1,3000,1172.74,2025-03-01
+O0302,24/7 Coverage,Support,1,3600,1104.96,2025-01-21
+O0303,Premium SLA,Support,1,1800,552.78,2025-01-02
+O0304,Remote Pack 20h,Support,1,2800,1148.82,2025-03-28
+O0305,Security Package,Software,1,1800,270.41,2025-02-24
+O0306,CRM License,Software,1,1200,188.67,2025-01-24
+O0307,Migration Project,Consulting,1,8500,4148.33,2025-01-01
+O0308,Workstation Pro,Hardware,3,2200,1523.47,2025-02-08
+O0309,Security Assessment,Consulting,1,3800,1854.7,2025-01-02
+O0310,Network Switch,Hardware,1,1500,1057.67,2025-03-27
+O0311,Analytics Suite,Software,1,2800,346.69,2025-01-21
+O0312,Process Audit,Consulting,1,2400,1154.09,2025-03-30
+O0313,End User Training,Training,1,800,323.67,2025-02-17
+O0314,ERP Module,Software,1,3500,405.43,2025-03-03
+O0315,Remote Pack 20h,Support,1,2800,1110.57,2025-02-17
+O0316,Data Strategy,Consulting,1,4500,2317.95,2025-03-10
+O0317,Developer Workshop,Training,1,1600,656.3,2025-03-29
+O0318,Admin Bootcamp,Training,1,1200,477.44,2025-03-09
+O0319,Basic SLA,Support,1,600,173.02,2025-03-14
+O0320,Custom Course,Training,1,3000,1208.72,2025-01-26
+O0321,Analytics Suite,Software,1,2800,347.96,2025-03-08
+O0322,Remote Pack 20h,Support,1,2800,1074.19,2025-03-04
+O0323,Architecture Review,Consulting,1,3200,1541.11,2025-02-28
+O0324,UPS Unit,Hardware,1,900,613.01,2025-03-13
+O0325,Process Audit,Consulting,1,2400,1187.51,2025-01-03
+O0326,Premium SLA,Support,1,1800,516.94,2025-03-16
+O0327,Architecture Review,Consulting,1,3200,1679.06,2025-03-11
+O0328,Admin Bootcamp,Training,1,1200,457.52,2025-03-02
+O0329,Network Switch,Hardware,4,1500,1009.53,2025-02-17
+O0330,Certification Prep,Training,1,2000,829.57,2025-02-27
+O0331,Certification Prep,Training,1,2000,814.62,2025-01-11
+O0332,Remote Pack 20h,Support,1,2800,1137.2,2025-01-18
+O0333,Network Switch,Hardware,5,1500,1013.33,2025-02-20
+O0334,Migration Project,Consulting,1,8500,4358.88,2025-01-01
+O0335,Certification Prep,Training,1,2000,817.53,2025-03-28
+O0336,Data Strategy,Consulting,1,4500,2193.19,2025-01-30
+O0337,Workstation Pro,Hardware,2,2200,1477.07,2025-01-15
+O0338,Security Package,Software,1,1800,277.18,2025-03-20
+O0339,Admin Bootcamp,Training,1,1200,465.89,2025-01-31
+O0340,CRM License,Software,1,1200,181.76,2025-02-27
+O0341,Basic SLA,Support,1,600,184.33,2025-02-01
+O0342,Network Switch,Hardware,5,1500,984.2,2025-01-28
+O0343,Basic SLA,Support,1,600,180.07,2025-01-18
+O0344,UPS Unit,Hardware,3,900,614.51,2025-03-15
+O0345,Process Audit,Consulting,1,2400,1176.21,2025-01-31
+O0346,Integration Hub,Software,1,2200,327.15,2025-01-29
+O0347,UPS Unit,Hardware,5,900,576.43,2025-01-23
+O0348,Data Strategy,Consulting,1,4500,2249.01,2025-03-13
+O0349,Certification Prep,Training,1,2000,785.5,2025-03-09
+O0350,Network Switch,Hardware,3,1500,1010.8,2025-02-18
+O0351,Integration Hub,Software,1,2200,321.45,2025-03-02
+O0352,Network Switch,Hardware,4,1500,958.87,2025-01-08
+O0353,Data Strategy,Consulting,1,4500,2256.75,2025-03-13
+O0354,Workstation Pro,Hardware,2,2200,1531.2,2025-02-12
+O0355,Onsite Pack 10h,Support,1,2000,767.4,2025-02-17
+O0356,Premium SLA,Support,1,1800,527.5,2025-01-07
+O0357,Remote Pack 20h,Support,1,2800,1161.85,2025-01-06
+O0358,Integration Hub,Software,1,2200,331.94,2025-03-27
+O0359,Process Audit,Consulting,1,2400,1254.84,2025-02-08
+O0360,ERP Module,Software,1,3500,430.37,2025-01-16
+O0361,Premium SLA,Support,1,1800,545.64,2025-03-31
+O0362,ERP Module,Software,1,3500,412.51,2025-03-12
+O0363,Storage Array,Hardware,5,6500,4664.8,2025-03-25
+O0364,Workstation Pro,Hardware,3,2200,1575.67,2025-03-07
+O0365,Certification Prep,Training,1,2000,824.23,2025-01-13
+O0366,24/7 Coverage,Support,1,3600,1066.04,2025-01-27
+O0367,UPS Unit,Hardware,2,900,573.44,2025-01-19
+O0368,Integration Hub,Software,1,2200,332.61,2025-03-16
+O0369,Network Switch,Hardware,2,1500,1003.2,2025-02-12
+O0370,UPS Unit,Hardware,2,900,607.04,2025-03-05
+O0371,Process Audit,Consulting,1,2400,1231.6,2025-02-02
+O0372,Data Strategy,Consulting,1,4500,2175.35,2025-02-28
+O0373,Premium SLA,Support,1,1800,551.9,2025-01-18
+O0374,Security Assessment,Consulting,1,3800,1986.88,2025-03-24
+O0375,Architecture Review,Consulting,1,3200,1527.76,2025-03-27
+O0376,ERP Module,Software,1,3500,408.72,2025-03-22
+O0377,Basic SLA,Support,1,600,180.1,2025-01-28
+O0378,UPS Unit,Hardware,5,900,605.55,2025-03-03
+O0379,Basic SLA,Support,1,600,180.58,2025-01-01
+O0380,Server Node,Hardware,5,4800,3244.67,2025-02-05
+O0381,Process Audit,Consulting,1,2400,1200.27,2025-01-03
+O0382,Onsite Pack 10h,Support,1,2000,768.56,2025-01-23
+O0383,ERP Module,Software,1,3500,407.06,2025-01-31
+O0384,Process Audit,Consulting,1,2400,1235.39,2025-02-04
+O0385,Security Package,Software,1,1800,271.76,2025-02-28
+O0386,Developer Workshop,Training,1,1600,651.78,2025-02-08
+O0387,Admin Bootcamp,Training,1,1200,475.45,2025-01-12
+O0388,Storage Array,Hardware,1,6500,4653.6,2025-03-23
+O0389,ERP Module,Software,1,3500,419.99,2025-01-11
+O0390,Process Audit,Consulting,1,2400,1257.28,2025-03-14
+O0391,Custom Course,Training,1,3000,1167.57,2025-01-06
+O0392,Custom Course,Training,1,3000,1172.53,2025-03-02
+O0393,End User Training,Training,1,800,322.03,2025-03-11
+O0394,Analytics Suite,Software,1,2800,366.15,2025-01-03
+O0395,Data Strategy,Consulting,1,4500,2204.84,2025-01-10
+O0396,Security Assessment,Consulting,1,3800,1933.64,2025-02-19
+O0397,Data Strategy,Consulting,1,4500,2315.36,2025-01-18
+O0398,Basic SLA,Support,1,600,184.42,2025-03-06
+O0399,Server Node,Hardware,4,4800,3219.87,2025-01-30
+O0400,End User Training,Training,1,800,328.61,2025-03-19
