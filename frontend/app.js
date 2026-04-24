@@ -359,12 +359,12 @@ class A2UIChatClient {
 
 // Initialize on DOM ready
 document.addEventListener('DOMContentLoaded', () => {
-    // Detect backend URL: if on localhost:3000, use localhost:8000 for backend
+    // Detect backend URL: if on localhost:3000, use localhost:8001 for backend
     let backendUrl = window.location.origin;
     if (window.location.hostname === 'localhost' && window.location.port === '3000') {
-        backendUrl = 'http://localhost:8000';
+        backendUrl = 'http://localhost:8001';
     } else if (window.location.hostname === 'localhost' && !window.location.port) {
-        backendUrl = 'http://localhost:8000';
+        backendUrl = 'http://localhost:8001';
     }
 
     const client = new A2UIChatClient({

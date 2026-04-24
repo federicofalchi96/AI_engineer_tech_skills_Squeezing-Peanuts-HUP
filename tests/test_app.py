@@ -27,9 +27,9 @@ from agents.sales_agent import SalesAgent
 from agents.finance_agent import FinanceAgent
 
 
-# ============================================================================
+
 # FIXTURES
-# ============================================================================
+
 
 @pytest.fixture(scope="session")
 def data_loader():
@@ -53,9 +53,9 @@ def finance_agent(data_loader):
     return FinanceAgent(data_loader)
 
 
-# ============================================================================
+
 # SALES AGENT TESTS (SQL Integration)
-# ============================================================================
+
 
 class TestSalesAgentSQL:
     """Test Sales Agent with SQL queries"""
@@ -111,9 +111,9 @@ class TestSalesAgentSQL:
         print(f"\n[PASS] Open opportunities tool returned: {len(response)} chars")
 
 
-# ============================================================================
+
 # FINANCE AGENT TESTS (SQL Integration)
-# ============================================================================
+
 
 class TestFinanceAgentSQL:
     """Test Finance Agent with SQL queries"""
@@ -179,9 +179,9 @@ class TestFinanceAgentSQL:
         print(f"\n[PASS] Low margin categories query returned: {len(response)} chars")
 
 
-# ============================================================================
+
 # COST FLOW TESTS (Original tests from test_cost_flow.py)
-# ============================================================================
+
 
 class TestCostFlow:
     """Test the complete cost tracking and blocking flow"""
@@ -219,9 +219,9 @@ class TestCostFlow:
             print(f"\n[PASS] Cost flow test passed")
 
 
-# ============================================================================
+
 # INTEGRATION TESTS
-# ============================================================================
+
 
 class TestIntegration:
     """Integration tests for frontend-backend interaction"""
