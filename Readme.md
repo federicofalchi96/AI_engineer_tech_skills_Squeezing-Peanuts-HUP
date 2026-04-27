@@ -48,8 +48,8 @@ docker-compose up
 
 # 4. Test
 # Frontend: http://localhost:3000
-# Backend API: http://localhost:8000
-# Health: curl http://localhost:8000/health
+# Backend API: http://localhost:8001
+# Health: curl http://localhost:8001/health
 ```
 
 ---
@@ -148,7 +148,7 @@ Domain: SALES | DB: true | Cost: $0.0012 | Time: 1.5s
                │ (POST /chat, /log-query, /stats)
                ▼
 ┌──────────────────────────────────┐
-│  FastAPI Backend (8000)          │
+│  FastAPI Backend (8001)          │
 │  - Rate limiting (2 req/min)     │
 │  - CORS enabled                  │
 │  - LangSmith @traceable hooks    │
@@ -1041,7 +1041,7 @@ python backend/main.py
 cd frontend && python -m http.server 3000
 
 # 5. Test
-curl -X POST http://localhost:8000/chat \
+curl -X POST http://localhost:8001/chat \
   -H "Content-Type: application/json" \
   -d '{"query":"Which leads..."}'
 ```
