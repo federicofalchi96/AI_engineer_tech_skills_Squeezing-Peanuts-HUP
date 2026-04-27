@@ -62,11 +62,11 @@ class ObservabilityLogger:
                 api_key = os.getenv("LANGSMITH_API_KEY")
                 if api_key:
                     self.langsmith_client = Client(api_key=api_key)
-                    logger.info(f"✓ LangSmith client initialized successfully")
+                    logger.info(f"LangSmith client initialized successfully")
                 else:
                     logger.warning("LANGSMITH_API_KEY not set")
             except Exception as e:
-                logger.error(f"✗ LangSmith client init failed: {e}", exc_info=True)
+                logger.error(f"LangSmith client init failed: {e}", exc_info=True)
 
     def log_query(self, trace_data: Dict[str, Any]) -> tuple:
         """Log a query with tokens and costs. Returns (trace_id, cost_usd)"""
