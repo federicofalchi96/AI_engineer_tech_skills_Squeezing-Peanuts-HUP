@@ -70,11 +70,18 @@ class QueryRouter:
             'non ho informazioni',
             'no access to',
             'not available',
-            'tables available', 
+            'tables available',
             'not in my',
             'outside my scope',
-            'esula dal', 
+            'esula',
+            'sorry',
+            'scusa',
             'mi dispiace',
+            'non sono un',
+            'non sono uno',
+            'non posso',
+            'i\'m not a',
+            'am not a',
         ]
 
         # Check if response contains negative patterns
