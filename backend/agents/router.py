@@ -69,6 +69,8 @@ class QueryRouter:
             'non ho accesso',
             'non ho informazioni',
             'no access to',
+            'don\'t have access',
+            'do not have access',
             'not available',
             'tables available',
             'not in my',
@@ -82,6 +84,20 @@ class QueryRouter:
             'non posso',
             'i\'m not a',
             'am not a',
+            'specialized in analyzing',
+            'don\'t have information',
+            'do not have information',
+            'specifically designed as a',
+            'my expertise is in',
+            'outside my',
+            'outside my area',
+            'but i don\'t',
+            'but i\'m not',
+            'but i can\'t',
+            'but i\'ve',
+            'ma non ho',
+            'ma non posso',
+            'ma non sono',
         ]
 
         # Check if response contains negative patterns
@@ -178,35 +194,26 @@ class QueryRouter:
         Returns: SALES (search/database queries) | FINANCE (analysis) | GENERAL (knowledge)
 
         Priority:
-        1. Knowledge cache -> GENERAL (definitive knowledge base)
-        2. SEARCH intent -> SALES (e.g., "find Amadeo")
-        3. ANALYSIS + FINANCE keywords -> FINANCE (e.g., "analyze margins")
-        4. Default -> SALES (try data first, then fallback to FINANCE -> GENERAL)
+        1. SEARCH intent -> SALES (e.g., "find Amadeo")
+        2. ANALYSIS + FINANCE keywords -> FINANCE (e.g., "analyze margins")
+        3. Default -> GENERAL (general knowledge queries)
         """
         try:
-            query_lower = query.lower()
-
-            # Priority 1: Check knowledge cache FIRST (definitive answers)
-            for topic in self.knowledge_cache.keys():
-                if topic in query_lower:
-                    logger.info(f"Query classification - Knowledge cache hit for: {topic} -> GENERAL")
-                    return "GENERAL"
-
-            # Priority 2: Check for SEARCH intent -> SALES (has database access)
+            # Priority 1: Check for SEARCH intent -> SALES (has database access)
             is_search = self._is_search_intent(query)
             if is_search:
                 logger.info(f"Query classification - Search intent detected -> SALES")
                 return "SALES"
 
-            # Priority 3: ANALYSIS intent (analyze, calculate, etc.) + FINANCE keywords -> FINANCE
+            # Priority 2: ANALYSIS intent (analyze, calculate, etc.) + FINANCE keywords -> FINANCE
             is_analysis = self._is_analysis_intent(query)
             if is_analysis:
                 logger.info(f"Query classification - Analysis intent detected -> FINANCE")
                 return "FINANCE"
 
-            # Default: SALES (try data first, then fallback to FINANCE -> GENERAL)
-            logger.info(f"Query classification - No intent detected, defaulting to SALES")
-            return "SALES"
+            # Default: GENERAL (general knowledge queries)
+            logger.info(f"Query classification - No intent detected, defaulting to GENERAL")
+            return "GENERAL"
 
         except Exception as e:
             logger.warning(f"Error classifying domain: {e}")

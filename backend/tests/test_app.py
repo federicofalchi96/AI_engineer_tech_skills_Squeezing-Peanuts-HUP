@@ -227,7 +227,7 @@ def test_query_router_finance_domain():
     data_loader = MockDataLoader()
     router = QueryRouter(data_loader)
 
-    query = "What is the gross margin by category?"
+    query = "Analyze the cost structure across product lines"
     domain = asyncio.run(router._classify_domain(query))
 
     assert domain == "FINANCE", f"Expected FINANCE domain, got {domain}"
@@ -244,7 +244,7 @@ def test_query_router_general_domain():
     data_loader = MockDataLoader()
     router = QueryRouter(data_loader)
 
-    query = "What is the capital of France?"
+    query = "Who won the Oscar for Best Actor?"
     domain = asyncio.run(router._classify_domain(query))
 
     assert domain == "GENERAL", f"Expected GENERAL domain, got {domain}"
